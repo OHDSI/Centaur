@@ -1,4 +1,4 @@
-# Centaur
+# Centaur - Coming Soon!
 
 ## Introduction
 Centaur is an R package to implement cohort studies that offers several alternative workflows 
