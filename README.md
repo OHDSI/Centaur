@@ -1,6 +1,6 @@
-#Centaur
+# Centaur
 
-##Introduction
+## Introduction
 Centaur is an R package to implement cohort studies that offers several alternative workflows 
 to control for observed confounding.    Centaur provides a set of configurable options to balance 
 covariates between two exposure groups, evaluate the quality of balance and perform outcome analysis.   
@@ -16,7 +16,7 @@ At the same time, the OHDSI Cohort Method can also be directly called within Cen
 using regularized regression for cohorts with large numbers of covariates or to compare results 
 using different methods to calculate a propensity score.
 
-##Features
+## Features
 * Load any pre-existing cohort file as an R data frame
 * Propensity score calculation via logistic regression, generalized boosted models (gbm) 
 or regularized regression as provided in the OHDSI cohort method
@@ -28,11 +28,11 @@ or regularized regression as provided in the OHDSI cohort method
 * Outcome analysis – either odds ratio or hazards ratio.
 * Recommended defaults options for many steps, but also highly configurable settings
 
-##Features In Progress
+## Features In Progress
 * load data via sql query of cdm instance (i.e. replicate
 * options to run full workflow with pre-specified settings
 
-##Workflow Summary
+## Workflow Summary
 ![Workflow Summary](./img/workflow.png)
 
 The default available methods are determined by the number of covariates in the dataset, 
@@ -55,15 +55,15 @@ Using the quantiles approach, the distribution of a single covariate in each qua
 
 ![Age Distribution](./img/age_dist.png)
 
-###Technology
+### Technology
 
 ?? R package ??
 
-###System Requirements
+### System Requirements
 System requirements are highly dependent on the size of the dataset being analyzed. For any "real-world"
 dataset, we recommend at least a core i7 (or equivalent) and at least 8GB RAM.
 
-###Dependencies
+### Dependencies
 * AUC 
 * broom 
 * data.table
@@ -83,20 +83,20 @@ dataset, we recommend at least a core i7 (or equivalent) and at least 8GB RAM.
 
 (list of packages)
 
-###Getting Started
+### Getting Started
 Try out the vignette! (Insert link!)
 
-###Installation instructions for various systems
+### Installation instructions for various systems
 
-###Getting Involved
-###Links to vignette, whitepaper and manual.
+### Getting Involved
+### Links to vignette, whitepaper and manual.
 
-###License
+### License
 
-###Development
+### Development
 (Copy OHDSI cohort method -  don’t know where the little status indicators come from?)
 
-###References
+### References
 * Drive.ps-manual.pdf	[MAN]	18-Dec-2015	
 * An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies	[AUSTIN]	2011	
 * Matching Methods for Causal Inference: A Review and a Look Forward	[STUART]	2010	
@@ -112,4 +112,4 @@ Try out the vignette! (Insert link!)
 * A Practical Guide for Using Propensity Score Weighting in R	[GOVINDASAMY]	2015	
 
 
-###Acknowledgements
+### Acknowledgements
