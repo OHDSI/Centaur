@@ -38,7 +38,7 @@ or regularized regression as provided in the OHDSI cohort method
 The default available methods are determined by the number of covariates in the dataset, 
 and the total number of subjects. These limits have largely been determined empirically based
  on performance. Depending on your available hardware, it may be feasible to use a given method
- with more (or fewer) cavariates and/or subjects. Each of these limits can be overridden.
+ with more (or fewer) covariates and/or subjects. Each of these limits can be overridden.
 
 ![Methods](./img/method_space.png)
 
@@ -51,7 +51,7 @@ scores.
 
 ![Score Distribution](./img/score_dist2.png)
 
-Using the quantiles approach, the distribution of a single covariate in each quantile. 
+Using the stratification approach, the distribution of a single covariate in each strata. 
 
 ![Age Distribution](./img/age_dist.png)
 
@@ -94,15 +94,15 @@ Try out the vignette! (Insert link!)
 ### License
 
 ### Development
-(Copy OHDSI cohort method -  don’t know where the little status indicators come from?)
+
 
 ### References
 * Drive.ps-manual.pdf	[MAN]	18-Dec-2015	
-* An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies	[AUSTIN]	2011	
-* Matching Methods for Causal Inference: A Review and a Look Forward	[STUART]	2010	
-* Propensity score estimation with missing values using a multiple imputation missingness pattern(MIMP) approach	[LIPKOVICH]	2009	
-* Reducing Bias in Treatment Effect Estimation in Observational Studies Suffering From Missing Data	[HILL]	2004	
-* A comparison of 12 algorithms for matching on the propensity score	[AUSTIN 2]	2014	
+* [An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies, AUSTIN	2011](http://www.tandfonline.com/doi/abs/10.1080/00273171.2011.568786)	
+* [Matching Methods for Causal Inference: A Review and a Look Forward	STUART	2010](https://projecteuclid.org/euclid.ss/1280841730)
+* [Propensity score estimation with missing values using a multiple imputation missingness pattern(MIMP) approach	LIPKOVICH	2009](http://onlinelibrary.wiley.com/doi/10.1002/sim.3549/full)
+* [Reducing Bias in Treatment Effect Estimation in Observational Studies Suffering From Missing Data, HILL	2004](https://academiccommons.columbia.edu/catalog/ac:129151)
+* [A comparison of 12 algorithms for matching on the propensity score, AUSTIN,	2014](http://onlinelibrary.wiley.com/doi/10.1002/sim.6004/abstract)
 * Weight Trimming and Propensity Score Weighting	[STUART 2]	2011	
 * Reducing Bias in Observational Studies Using Subclassification on the Propensity Score	[RUBIN]	1984	
 * Using Propensity Scores to Help Design Observational Sutdies: Application to the Tobacco Litigation	[RUBIN 2]	2001	
