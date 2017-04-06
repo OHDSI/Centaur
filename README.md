@@ -1,6 +1,7 @@
 # Centaur - Coming Soon!
 
 ## Introduction
+
 Centaur is an R package for the implementation of observational cohort studies.  It provides several alternative workflows 
 to control for observed confounding by providing a set of configurable options to compute propensity scores, balance 
 covariates between two exposure groups, evaluate the quality of balance and perform outcome analysis.   
@@ -14,6 +15,7 @@ using regularized regression for cohorts with large numbers of covariates and to
 using different methods to calculate a propensity score.
 
 ## Features
+
 * Load any pre-existing cohort file as an R data frame
 * Propensity score calculation via logistic regression, generalized boosted models (gbm) which treats interaction terms 
 or regularized regression as provided in the OHDSI cohort method
