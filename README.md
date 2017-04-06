@@ -30,30 +30,41 @@ or regularized regression as provided in the OHDSI cohort method
 * options to run full workflow with pre-specified settings
 * improved plotting
 
+
+
 ## Workflow Summary
 ![Workflow Summary](./img/workflow.png)
 
+
+
 ## Screenshots
+
 
 The default available methods are determined by the number of covariates in the dataset, 
 and the total number of subjects. These limits have largely been determined empirically based
  on performance. Depending on your available hardware, it may be feasible to use a given method
  with more (or fewer) covariates and/or subjects. Each of these limits can be overridden.
 
+
 ![Methods](./img/method_space.png)
+
 
 Simple visual inspection of the area of common support.
 
 ![Score Distribution](./img/score_dist.png)
+
 
 "Violin" plots show the distribution of matched and unmatched control and treatment propensity 
 scores.
 
 ![Score Distribution](./img/score_dist2.png)
 
+
 Using the stratification approach, compare the distribution in the treatment/control groups of a single covariate in each strata. 
 
 ![Age Distribution](./img/age_dist.png)
+
+
 
 ### Technology
 
