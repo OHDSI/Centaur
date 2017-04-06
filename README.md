@@ -7,9 +7,7 @@ covariates between two exposure groups, evaluate the quality of balance and perf
 
 Centaur also uses a more traditional approach than the OHDSI cohort method and places the 
 responsibility on the user to include all observed covariates likely to have an impact on the treatment 
-choice or the outcome. The cohort data is currently loaded by a user as an R dataframe and can come from any source.  It is therefore left up to the user to design the cohort appropriately.  
-In contrast, the OHDSI cohort method creates the cohort dataset by a direct configurable query to a 
-CDM instance and then includes all possible exposures, conditions etc as covariates by default.  
+choice or the outcome. The cohort data is currently loaded by a user as an R dataframe and can come from any source.  It is therefore left up to the user to design the cohort appropriately.  In contrast, the OHDSI cohort method creates the cohort dataset by a direct configurable query to a CDM instance and then includes all possible exposures, conditions etc as covariates by default.  
 
 At the same time, the OHDSI Cohort Method can also be directly called within Centaur to facilitate 
 using regularized regression for cohorts with large numbers of covariates and to compare results 
@@ -25,7 +23,7 @@ or regularized regression as provided in the OHDSI cohort method
 * Truncation of weights
 * Standard balance diagnostics in tabular and graphical form
 * Outcome analysis – either odds ratio or hazards ratio.
-* Recommended defaults options for many steps, but also highly configurable settings
+* Recommended default options for many steps, but also highly configurable settings
 
 ## Features In Progress
 * load data via sql query of cdm instance (i.e. replicate
@@ -114,9 +112,9 @@ Try the vignette! (Insert link!)
 * [The performance of different propensity score methods for estimating marginal hazard ratios	AUSTIN	2011](http://onlinelibrary.wiley.com/doi/10.1002/sim.5705/abstract)
 * [MatchIt: Nonparametric preprocessing for parametric causal inference HO 2013](http://gking.harvard.edu/matchit)
 * [Toolkit for weighting and analysis of nonequivalent groups: a tutorial for the **twang** package](https://cran.r-project.org/web/packages/twang/vignettes/twang.pdf) 
-* [The performance of different propensity score methods for estimating marginal odds ratios.	AUSTIN 4	2007] (http://onlinelibrary.wiley.com/doi/10.1002/sim.2781/abstract)
-* [A Step-by-Step Guide to Propensity Score Matching in R.	BALLOUN	2014] (https://www.researchgate.net/publication/290316911_A_step-by-step_guide_to_propensity_score_matching_in_R)	
-* [A Practical Guide for Using Propensity Score Weighting in R	GOVINDASAMY	2015] (http://pareonline.net/pdf/v20n13.pdf)
+* [The performance of different propensity score methods for estimating marginal odds ratios.	AUSTIN 4	2007](http://onlinelibrary.wiley.com/doi/10.1002/sim.2781/abstract)
+* [A Step-by-Step Guide to Propensity Score Matching in R.	BALLOUN	2014](https://www.researchgate.net/publication/290316911_A_step-by-step_guide_to_propensity_score_matching_in_R)	
+* [A Practical Guide for Using Propensity Score Weighting in R	GOVINDASAMY	2015](http://pareonline.net/pdf/v20n13.pdf)
 
 
 
