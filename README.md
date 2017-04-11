@@ -1,4 +1,4 @@
-# Centaur - Coming Soon!
+# Centaur
 
 ## Introduction
 

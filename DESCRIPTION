@@ -1,0 +1,34 @@
+Package: Centaur
+Type: Package
+Title: Centaur Propensity Score Balancing Workflow and Toolkit
+Version: 1.0.0
+Date: 2017-04-06
+Author: Sara Dempster
+	Stephen Kottmann
+	Alex Bayeh
+Maintainer: Alex Bayeh <alex.bayeh.centaur@gmail.com>
+Description: Performs propensity score based population balancing. This package is a toolkit to calculate propensity scores, balancea population dataset via either weighting or matching, and perform a variety of diagnostics to assess the scientific validity of the approach. The authors acknowledge the following team from AstraZeneca Pharmaceuticals,  Robert LoCasale, Michael Goodman, Ramin Arani, Yiduo Zhang, and Sudeep Karve for contributing to the requirements with their expertise in epidemiology, safety informatics, health economics and biostatics and for reviewing the final product.  The authors also acknowledge Jonathan Herz and Pramod Kumar for help with testing early versions of the package.
+License: Apache License 2.0
+LazyData: no
+RoxygenNote: 6.0.1
+Imports:
+  AUC,
+  broom,
+  data.table,
+  dplyr,
+  ff,
+  gtools,
+  Hmisc,
+  MASS,
+  MatchIt,
+  plyr,
+  RJDBC,
+  SDMTools,
+  sm,
+  survival,
+  twang,
+  vioplot
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
