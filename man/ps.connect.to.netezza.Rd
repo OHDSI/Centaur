@@ -29,5 +29,7 @@ This function creates a connection to the Netezza database using the supplied cr
 can then be used to pull data from the database into R.
 }
 \examples{
+\dontrun{
 ps.connect.to.netezza("user123", "password123", "/users/user123/Documents/databaseDrivers")
+}
 }

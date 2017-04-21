@@ -20,8 +20,10 @@
 #' @return Data Frame - trimmed dataset
 #'
 #' @examples
+#' \dontrun{
 #' ps.trim(myData)
 #' ps.trim(myData, trim.method = "quantile", trime.quantile = 0.90)
+#' }
 #' @export
 ps.trim <- function(data, trim.method = "overlap", trim.quantile = 0.95, quantile.group = "all") {
 

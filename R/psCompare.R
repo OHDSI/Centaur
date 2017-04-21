@@ -14,14 +14,12 @@
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.compare(myData)
+#' }
 #' @export
 ps.compare <- function(data) {
-
-  # not best practice to use "library", but call further down the stack fails if library is not loaded
-  library(sm)
-
-  sm.density.compare(data$ps_values, data$treat, xlab="Propensity Score")
+  sm::sm.density.compare(data$ps_values, data$treat, xlab="Propensity Score")
   title(main="Propensity Score Distribution")
   legend("topleft", c("control", "treat"), fill=c(2,3))
 }

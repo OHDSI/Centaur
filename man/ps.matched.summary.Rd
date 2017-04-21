@@ -25,5 +25,7 @@ populations that result from previously completed matching. (Not really useful
 for weighting as all subjects will have a non-zero weight)
 }
 \examples{
+\dontrun{
 ps.matched.summary(myData)
+}
 }

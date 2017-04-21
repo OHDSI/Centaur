@@ -22,8 +22,10 @@
 #'          the odds ratio with confidence interval.
 #'
 #' @examples
+#' \dontrun{
 #' ps.regression(myData, "outcome")
 #' ps.regression(myData, "outcome", covariates, w = myData$is_matched)
+#' }
 #' @export
 ps.regression <- function(data, outcome, covariates = character(), family = binomial(), w = NULL) {
 
@@ -75,7 +77,9 @@ ps.regression <- function(data, outcome, covariates = character(), family = bino
 #'          the odds ratio with confidence interval.
 #'
 #' @examples
+#' \dontrun{
 #' ps.survival(myData, "outcome")
+#' }
 #' @export
 ps.survival <- function(data, outcome, covariates = character(), w = NULL) {
 
@@ -114,7 +118,9 @@ ps.survival <- function(data, outcome, covariates = character(), w = NULL) {
 #' @return Vector, containing computed survival objects based on the outcome dates specified
 #'
 #' @examples
+#' \dontrun{
 #' ps.compute.survival(myData, "outcome")
+#' }
 #' @export
 ps.compute.survival <- function(data, outcome.dates, index.dates,
                                 obs.end.dates = "OBSEND",
@@ -168,7 +174,9 @@ ps.compute.survival <- function(data, outcome.dates, index.dates,
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.km.plot(model$km)
+#' }
 #' @export
 ps.km.plot <- function(km.analysis, title = "Kaplan-Meier Curves") {
 

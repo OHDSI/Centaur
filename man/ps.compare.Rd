@@ -21,5 +21,7 @@ of the propensity scores for the two groups allowing one to visually assess the 
 of common support
 }
 \examples{
+\dontrun{
 ps.compare(myData)
+}
 }

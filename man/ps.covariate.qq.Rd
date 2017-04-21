@@ -22,6 +22,8 @@ This function identifies each of the continuous covariates and creates a QQ plot
 to visually inspect the similarity of distributions of covariates in the control and treatment populations
 }
 \examples{
+\dontrun{
 ps.covariate.qq(myData, covariates)
 ps.covariate.qq(myData, covariates, myData$is_matched)
+}
 }

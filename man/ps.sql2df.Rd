@@ -22,5 +22,7 @@ This function uses a database connection to execute a sql query string. The resu
 are returned as an R data frame.
 }
 \examples{
+\dontrun{
 myData <- ps.sql2df(nzconn, "select * from database.table limit 100")
+}
 }

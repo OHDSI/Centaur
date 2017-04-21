@@ -31,8 +31,10 @@ the difference in means between the treat and control populations and the standa
 difference of the means between the populations.
 }
 \examples{
+\dontrun{
 ps.covariate.statistics(myData, covariates)
 ps.covariate.statistics(myData, covariates, weights = myData$weights)
 ps.covariate.statistics(myData, covariates, weights = myData$is_matched)
 ps.covariate.statistics(myData, covariates, outputs = "dichotomous")
+}
 }

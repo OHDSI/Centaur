@@ -24,5 +24,6 @@ be a data frame containing the dataset with previously calculated propensity
 scores in a variable called ps_values.
 }
 \examples{
-ps.sensitivity(myData)
+\dontrun{
+ps.sensitivity(myData)}
 }

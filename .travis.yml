@@ -1,0 +1,22 @@
+language: R
+cache: packages
+sudo: false
+
+r_packages:
+  - covr
+  - drat
+
+before_install:
+  - Rscript -e 'update.packages(ask = FALSE)'
+  - export LD_LIBRARY_PATH=$JAVA_HOME:$LD_LIBRARY_PATH
+
+notifications:
+  recipients:
+  - schuemie@ohdsi.org
+  - alex.bayeh.centaur@gmail.com
+  email:
+    on_success: change
+    on_failure: change
+
+after_success:
+  - Rscript -e 'covr::codecov()'

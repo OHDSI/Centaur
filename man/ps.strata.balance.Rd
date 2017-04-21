@@ -22,5 +22,7 @@ This function creates a bar or box-and-whisker plot visualizing the summary stat
 for each covariate in each of the strata
 }
 \examples{
+\dontrun{
 ps.strata.balance(myData, myData$strata, covariates)
+}
 }

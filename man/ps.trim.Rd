@@ -34,6 +34,8 @@ This function trims the supplied population based on propensity scores. Trimming
 based on the overlapping regions, or a specified interquantile range.
 }
 \examples{
+\dontrun{
 ps.trim(myData)
 ps.trim(myData, trim.method = "quantile", trime.quantile = 0.90)
+}
 }

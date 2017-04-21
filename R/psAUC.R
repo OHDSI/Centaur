@@ -19,7 +19,9 @@
 #' @return Calculated accuracy of propensity scores
 #'
 #' @examples
+#' \dontrun{
 #' ps.accuracy(myData)
+#' }
 #' @export
 ps.accuracy <- function(data) {
 
@@ -43,7 +45,8 @@ ps.accuracy <- function(data) {
 #' @return Calculated sensitivity of propensity scores
 #'
 #' @examples
-#' ps.sensitivity(myData)
+#' \dontrun{
+#' ps.sensitivity(myData)}
 #' @export
 ps.sensitivity <- function(data) {
 
@@ -67,7 +70,9 @@ ps.sensitivity <- function(data) {
 #' @return Calculated specificity of propensity scores
 #'
 #' @examples
+#' \dontrun{
 #' ps.specificity(myData)
+#' }
 #' @export
 ps.specificity <- function(data) {
 
@@ -91,7 +96,9 @@ ps.specificity <- function(data) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.roc(myData)
+#' }
 #' @export
 ps.roc <- function(data) {
 
@@ -114,7 +121,9 @@ ps.roc <- function(data) {
 #' @return The area under the curve
 #'
 #' @examples
+#' \dontrun{
 #' ps.auc(myData)
+#' }
 #' @export
 ps.auc <- function(data) {
 

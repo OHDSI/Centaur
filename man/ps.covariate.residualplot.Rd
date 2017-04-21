@@ -28,5 +28,7 @@ of this regression are then compared. For a balanced population, the ratio of va
 covariate in one of the populations that has not been captured in the propensity scores.
 }
 \examples{
+\dontrun{
 ps.covariate.residualplot(myData, covariates)
+}
 }

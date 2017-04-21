@@ -19,5 +19,7 @@ This function creates a basic Kaplan-Meier plot for the supplied survival analys
 included about extent of axes, labels, etc.
 }
 \examples{
+\dontrun{
 ps.km.plot(model$km)
+}
 }

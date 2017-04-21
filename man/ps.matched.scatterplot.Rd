@@ -19,5 +19,7 @@ This function creates a simple scatter plot of matched and unmatched samples. Wo
 smaller sample sizes.
 }
 \examples{
+\dontrun{
 ps.matched.scatterplot(myData)
+}
 }

@@ -16,5 +16,7 @@ Close a connection to Netezza, freeing resources
 This function closes an existing connection to the netezza appliance to free resources
 }
 \examples{
+\dontrun{
 ps.disconnect.from.netezza(nzconn)
+}
 }

@@ -12,8 +12,10 @@
 #' @return Vector - containing the categorical strata number for each subject
 #'
 #' @examples
+#' \dontrun{
 #' ps.stratify(myData)
 #' ps.stratify(myData, n = 10)
+#' }
 #' @export
 ps.stratify <- function(data, n = 5) {
 
@@ -40,7 +42,9 @@ ps.stratify <- function(data, n = 5) {
 #'          as well as the pooled treatment effect information in object$treatment.effect.
 #'
 #' @examples
+#' \dontrun{
 #' ps.strata.regression(myData, strata, "outcome")
+#' }
 #' @export
 ps.strata.regression <- function(data, strata, outcome, estimand = "ATT", covariates = character(), family = binomial()) {
 
@@ -131,7 +135,9 @@ ps.strata.regression <- function(data, strata, outcome, estimand = "ATT", covari
 #'          as well as the pooled treatment effect information in object$treatment.effect.
 #'
 #' @examples
+#' \dontrun{
 #' ps.strata.survival(myData, myData$strata, "MISURVIVAL")
+#' }
 #' @export
 ps.strata.survival <- function(data, strata, outcome, estimand = "ATT", covariates = character()) {
 
@@ -218,7 +224,9 @@ ps.strata.survival <- function(data, strata, outcome, estimand = "ATT", covariat
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.strata.balance(myData, myData$strata, covariates)
+#' }
 #' @export
 ps.strata.balance <- function(data, strata, covariates) {
 

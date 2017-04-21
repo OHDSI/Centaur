@@ -21,6 +21,8 @@ Visualization of the covariate standardized differences of means
 This function creates a plot of each covariate's standardized differences of means before and after balancing
 }
 \examples{
+\dontrun{
 ps.covariate.biasplot(summary.balanced, summary.unbalanced)
 ps.covariate.biasplot(summary.balanced, summary.unbalanced, abs = TRUE)
+}
 }

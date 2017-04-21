@@ -34,5 +34,7 @@ This function evaluates an outcome model for each strata and then pools the mode
 to evaluate the overall treatment effect
 }
 \examples{
+\dontrun{
 ps.strata.regression(myData, strata, "outcome")
+}
 }

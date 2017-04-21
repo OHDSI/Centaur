@@ -26,6 +26,8 @@ decrease in the standardized difference of the mean propensity score after balan
 should see the ratio of variances in the propensity score move closer to 1 after balancing.
 }
 \examples{
+\dontrun{
 ps.score.summary(myData)
 ps.score.summary(myData, weights = myData$is_matched)
+}
 }

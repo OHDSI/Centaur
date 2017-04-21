@@ -27,5 +27,7 @@ total / unbalanced population and computes the percent reduction in the standard
 differences of the means
 }
 \examples{
+\dontrun{
 ps.percent.reduction(summary.balanced, summary.unbalanced)
+}
 }

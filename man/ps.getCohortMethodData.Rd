@@ -30,5 +30,7 @@ This function takes a data frame containing an observational study dataset and r
 into an object of type CohortMethodData that can be used with the OHDSI CohortMethod library.
 }
 \examples{
+\dontrun{
 ps.getCohortMethodData(myData)
+}
 }

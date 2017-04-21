@@ -23,6 +23,8 @@ This function stratifies a popultion based on an estimated propensity score. The
 of each subject is added to the dataset as a categorical value.
 }
 \examples{
+\dontrun{
 ps.stratify(myData)
 ps.stratify(myData, n = 10)
+}
 }

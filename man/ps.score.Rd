@@ -53,6 +53,8 @@ be included as covariates or confounding variables. See list of arguments for ad
 options.
 }
 \examples{
+\dontrun{
 ps.score(myData, myCovariates)
 ps.score(myData, myCovariates, ps.method = "twang")
+}
 }

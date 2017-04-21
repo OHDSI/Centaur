@@ -18,3 +18,11 @@ res = ps.score(mydata, covar, ps.method = "glm")
 
 ## Verify that GLM was used
 expect_true("ps_values" %in% colnames(res))})
+
+
+
+context("PS comparison")
+mydata <- data.frame(ps_values =rnorm(100),
+                     treat = rep(1:2, rep(50,2)))
+comp <- ps.compare(mydata)
+expect_is(comp, "list")

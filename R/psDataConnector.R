@@ -14,7 +14,9 @@
 #' @return Database connection object
 #'
 #' @examples
+#' \dontrun{
 #' ps.connect.to.netezza("user123", "password123", "/users/user123/Documents/databaseDrivers")
+#' }
 #' @export
 ps.connect.to.netezza <- function(user.name, password, driver.location, db.prefix, db.host) {
 
@@ -56,7 +58,9 @@ ps.connect.to.netezza <- function(user.name, password, driver.location, db.prefi
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.disconnect.from.netezza(nzconn)
+#' }
 #' @export
 ps.disconnect.from.netezza <- function(conn) {
   RJDBC::dbDisconnect(conn)
@@ -75,7 +79,9 @@ ps.disconnect.from.netezza <- function(conn) {
 #' @return Calculated accuracy of propensity scores
 #'
 #' @examples
+#' \dontrun{
 #' myData <- ps.sql2df(nzconn, "select * from database.table limit 100")
+#' }
 #' @export
 ps.sql2df <- function(conn, sql.query) {
 

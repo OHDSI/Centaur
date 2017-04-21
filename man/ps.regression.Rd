@@ -36,6 +36,8 @@ included in the vector of covariate names parameter. These will also be included
 for the regression model can be specified, or default to use the calculated weights in the data frame.
 }
 \examples{
+\dontrun{
 ps.regression(myData, "outcome")
 ps.regression(myData, "outcome", covariates, w = myData$is_matched)
+}
 }

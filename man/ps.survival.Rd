@@ -31,5 +31,7 @@ variable should be previously computed as a survival object (see ps.compute.surv
 automatically perform survival::survfit and survival::coxph.
 }
 \examples{
+\dontrun{
 ps.survival(myData, "outcome")
+}
 }

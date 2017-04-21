@@ -29,5 +29,7 @@ This function leverages the survival package Surv function to compute survival i
 used as an outcome variable in outcome analysis. See survival::Surv documentation for more information.
 }
 \examples{
+\dontrun{
 ps.compute.survival(myData, "outcome")
+}
 }

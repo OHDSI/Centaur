@@ -37,8 +37,10 @@
 #'          not.
 #'
 #' @examples
+#' \dontrun{
 #' ps.balance(myData, covariates)
 #' ps.balance(myData, covariates, match.subjects = TRUE, match.exact = c("GENDER"))
+#' }
 #' @export
 ps.balance <- function(data, covariates, estimand = "ATT", match.subjects = TRUE, match.exact = NULL, match.ratio = 1,
                        caliper.sigma = 0, use.logit = FALSE, truncate.quantile = 0.95, truncate.method = "cap",

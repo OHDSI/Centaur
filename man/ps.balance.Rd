@@ -60,6 +60,8 @@ the population is balanced depend on the parameters specified by the user, inclu
 the requested estimand.
 }
 \examples{
+\dontrun{
 ps.balance(myData, covariates)
 ps.balance(myData, covariates, match.subjects = TRUE, match.exact = c("GENDER"))
+}
 }

@@ -32,5 +32,7 @@ This function evaluates an outcome model for each stratum and then pools the mod
 to evaluate the overall treatment effect
 }
 \examples{
+\dontrun{
 ps.strata.survival(myData, myData$strata, "MISURVIVAL")
+}
 }

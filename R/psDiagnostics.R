@@ -19,7 +19,9 @@
 #'                populations
 #'
 #' @examples
+#' \dontrun{
 #' ps.matched.summary(myData)
+#' }
 #' @export
 ps.matched.summary <- function(data) {
 
@@ -48,7 +50,9 @@ ps.matched.summary <- function(data) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.matched.scatterplot(myData)
+#' }
 #' @export
 ps.matched.scatterplot <- function(data) {
 
@@ -85,7 +89,9 @@ ps.matched.scatterplot <- function(data) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.matched.violinplot(myData)
+#' }
 #' @export
 ps.matched.violinplot <- function(data) {
 
@@ -134,7 +140,9 @@ ps.matched.violinplot <- function(data) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.matched.boxplot(myData)
+#' }
 #' @export
 ps.matched.boxplot <- function(data) {
 
@@ -169,10 +177,12 @@ ps.matched.boxplot <- function(data) {
 #' @return Matrix - containing summary statistics for covariates
 #'
 #' @examples
+#' \dontrun{
 #' ps.covariate.statistics(myData, covariates)
 #' ps.covariate.statistics(myData, covariates, weights = myData$weights)
 #' ps.covariate.statistics(myData, covariates, weights = myData$is_matched)
 #' ps.covariate.statistics(myData, covariates, outputs = "dichotomous")
+#' }
 #' @export
 ps.covariate.statistics <- function(data, covariates, weights = NULL, outputs = c("all", "dichotomous", "continuous")) {
 
@@ -276,7 +286,9 @@ ps.covariate.statistics <- function(data, covariates, weights = NULL, outputs = 
 #' @return Matrix, containing the percent reduction in standardized differences of means for all covariates
 #'
 #' @examples
+#' \dontrun{
 #' ps.percent.reduction(summary.balanced, summary.unbalanced)
+#' }
 #' @export
 ps.percent.reduction <- function(balanced, unbalanced, abs = FALSE) {
 
@@ -312,8 +324,10 @@ ps.percent.reduction <- function(balanced, unbalanced, abs = FALSE) {
 #' @return Matrix, containing the summary statistics for the calculated propensity score
 #'
 #' @examples
+#' \dontrun{
 #' ps.score.summary(myData)
 #' ps.score.summary(myData, weights = myData$is_matched)
+#' }
 #' @export
 ps.score.summary <- function(data, weights = NULL) {
 
@@ -355,8 +369,10 @@ ps.score.summary <- function(data, weights = NULL) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.covariate.qq(myData, covariates)
 #' ps.covariate.qq(myData, covariates, myData$is_matched)
+#' }
 #' @export
 ps.covariate.qq <- function(data, covariates, weights = NULL) {
 
@@ -399,8 +415,10 @@ ps.covariate.qq <- function(data, covariates, weights = NULL) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.covariate.biasplot(summary.balanced, summary.unbalanced)
 #' ps.covariate.biasplot(summary.balanced, summary.unbalanced, abs = TRUE)
+#' }
 #' @export
 ps.covariate.biasplot <- function(balanced, unbalanced, abs = FALSE) {
 
@@ -469,7 +487,9 @@ ps.covariate.biasplot <- function(balanced, unbalanced, abs = FALSE) {
 #' @return NULL
 #'
 #' @examples
+#' \dontrun{
 #' ps.covariate.residualplot(myData, covariates)
+#' }
 #' @export
 ps.covariate.residualplot <- function(data, covariates, weights = NULL, dichotomous = FALSE) {
 

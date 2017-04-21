@@ -20,5 +20,7 @@ kernel density for the two populations - with an inner box and whisker plot of s
 This plot tends to work better for large populations than the matched scatter plot.
 }
 \examples{
+\dontrun{
 ps.matched.violinplot(myData)
+}
 }

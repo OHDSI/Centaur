@@ -15,7 +15,9 @@
 #' @return CohortMethodData - reformatted data object
 #'
 #' @examples
+#' \dontrun{
 #' ps.getCohortMethodData(myData)
+#' }
 #' @export
 ps.getCohortMethodData <- function(data, outcomes, covariates, treat.name = "treat", person.id.name = "PERSON_ID") {
 

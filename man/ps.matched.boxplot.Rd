@@ -18,5 +18,7 @@ Simple visual representation of matched samples
 This function creates a box and whisker plot of matched and unmatched samples.
 }
 \examples{
+\dontrun{
 ps.matched.boxplot(myData)
+}
 }

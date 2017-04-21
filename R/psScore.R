@@ -31,8 +31,10 @@
 #'          variable added for \code{ps_values} (the calculated propensity scores)
 #'
 #' @examples
+#' \dontrun{
 #' ps.score(myData, myCovariates)
 #' ps.score(myData, myCovariates, ps.method = "twang")
+#' }
 #' @export
 #'
 ps.score <- function(data,
