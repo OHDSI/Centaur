@@ -135,4 +135,4 @@ Try the vignette! (Insert link!)
 
 
 ### Acknowledgements
- The authors acknowledge the following team from AstraZeneca pharmaceuticals,  Robert LoCasale, Michael Goodman, Ramin Arani, Yiduo Zhang, and Sudeep Karve for contributing to the requirements with their expertise in epidemiology, safety informatics, health economics and biostatistics and for reviewing the final product.  The authors also acknowledge Jonathan Herz and Pramod Kumar for help with testing early versions of the package.
+The authors acknowledge the following team from AstraZeneca pharmaceuticals,  Robert LoCasale, Michael Goodman, Ramin Arani, Yiduo Zhang, and Sudeep Karve for contributing to the requirements with their expertise in epidemiology, safety informatics, health economics and biostatistics and for reviewing the final product.  The authors also acknowledge Jonathan Herz and Pramod Kumar for help with testing early versions of the package.
