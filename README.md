@@ -110,6 +110,9 @@ Try the vignette! (Insert link!)
 
 ### Development
 
+[![Build Status](https://travis-ci.org/OHDSI/Centaur.svg?branch=master)](https://travis-ci.org/OHDSI/Centaur)
+[![codecov.io](https://codecov.io/github/OHDSI/Centaur/coverage.svg?branch=master)](https://codecov.io/github/OHDSI/Centaur?branch=master)
+
 
 ### References
 * Centaur Manual	April-2017	
