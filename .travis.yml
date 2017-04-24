@@ -20,7 +20,9 @@ notifications:
 
 after_success:
   - Rscript -e 'covr::codecov()'
-  
+  # Deploy to drat repo
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
+
 env:
   global:
     secure: OrhPRiEww2tcv3GA+dFXpi6gc8dWbOOyh/mheg5vE9X7YXzRdGTHYsufHNpeGaZyvBEKsqmRBLn20gjywwZyhf4huMPhz0gY7aDWj9bMrbAIUFNwobrJ9MJdJ/T0YeVPvZ3qeix1kF0Pszi75Nu9Ld9FtIgA/g4JrQhUznpiVhReGR8Wz1Oo8GWgZfhWKc2l/aKIETs9GW9N31i5yWy5HpNI/a6PokltBPa0HNhdHwegJ5w4ioI7oPo0k731+z2rE9mfbhyUirMABPZS3sZPP2BJvDNU2Q+wab8Ps8RUSVEsbHzLUqH0BTEpc14fRlIQw2DpOtl3+SZPEvDA64Xvd138EhK+i7VVH2jCOP5lPRyq9LwYdfbEMRdVFMF8KctUTwuLVgHuGgu3kOcZ0cdkEXRMAQFI6My6d5xEaGYgP+a8rpdn9KNx7tMGTzlK60ArgyRXJ+B6npr6gz+NaIkAifRZu2TMa3YxEFMoQbJNs2sZV8C2wm/+qmLH0KxxJdVGh8QZ1dksDngrSD+GOg3OVElgw1jPIyt1xOCydjvYH2b4MsYURyiaaWHSLk3fXho3ndrJZYB194WZXQhQHW8Lm0xBgyG75VBExnra11YIaQO86dEN5LvDjavgZJGJ5rJzdZBKwyYqAE9Hj7e8dNNpSM1QMjmP1WPMYvZqKZ5yqwg=
