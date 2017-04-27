@@ -97,9 +97,17 @@ dataset, we recommend at least a core i7 (or equivalent) and at least 8GB RAM.
 (list of packages)
 
 ### Getting Started
-Comping Soon!
+1. On Windows, make sure [RTools](https://CRAN.R-project.org/bin/windows/Rtools/) is installed.
+2. In R, use the following commands to download and install Centaur:
+
+  ```r
+  install.packages("devtools")
+  library(devtools)
+  install_github("ohdsi/Centaur") 
+  ```
+  
 Read the whitepaper and
-Try the vignette! (Insert link!)
+Try the vignette! (Coming soon!)
 
 ### Installation instructions for various systems
 
